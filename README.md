@@ -32,6 +32,4 @@
 
     <br/>
   
-<div style="font-size: 20px; font-weight:700; text-align: center;">
-  DONE!!! AFTER FOLLOWING THESE INSTRUCTIONS AND OPENING A BROWSER WINDOW AT THE ADDRESS <code>http://localhost:[PORT_YOU_CONFIGURED]</code> NOW YOU CAN EXPERIMENT AND USE IT AS YOU WISH! 🤝 👨‍💻 ⚡
-</div>
+**<div align="center" style="font-size: 20px;">DONE!!! AFTER FOLLOWING THESE INSTRUCTIONS AND OPENING A BROWSER WINDOW AT THE ADDRESS** `http://localhost:[PORT_YOU_CONFIGURED]` **NOW YOU CAN EXPERIMENT AND USE IT AS YOU WISH! 🤝 👨‍💻 ⚡</div>**
