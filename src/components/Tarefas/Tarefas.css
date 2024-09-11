@@ -1,0 +1,44 @@
+.tarefas svg {
+   scale: 1.2;
+}
+
+.tarefas li {
+   display: flex;
+   padding: 6px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.tarefas li:hover {
+   background: rgba(0, 0, 0, 0.500);
+}
+
+.tarefas span {
+   word-break: break-all;
+}
+
+.icons_del_edit {
+   display: flex;
+   flex-wrap: nowrap;
+}
+
+.btn_edit {
+   cursor: pointer;
+   margin-left: 15px;
+
+}
+.btn_edit:hover {
+   transition: 0.150s ease-in-out;
+   color: rgb(255, 255, 0);
+   filter: drop-shadow(0 0 0.75rem #ffff00);
+}
+
+.btn_delete {
+   cursor: pointer;
+   margin-left: 15px;
+}
+.btn_delete:hover {
+   transition: 0.150s ease-in-out;
+   color: rgb(255, 0, 0);
+   filter: drop-shadow(0 0 0.75rem #ff0000);
+}
