@@ -1,6 +1,6 @@
 # FOR YOU WHO WANT TO RUN THE PROJECT ON YOUR MACHINE:
 
-- ## REQUISITOS:
+- ## REQUIREMENTS:
   - ### Install GIT and NODE on your machine.
 
 - ## INSTRUCTIONS:
