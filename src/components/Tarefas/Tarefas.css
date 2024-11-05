@@ -4,13 +4,14 @@
 
 .tarefas li {
    display: flex;
-   padding: 6px;
+   padding: 14px;
+   border-radius: 7px;
    align-items: center;
    justify-content: space-between;
 }
 
 .tarefas li:hover {
-   background: rgba(0, 0, 0, 0.500);
+   background: rgba(0, 0, 0, 0.250);
 }
 
 .tarefas span {

@@ -6,7 +6,9 @@ import './Form.css'
 
 export default function Form( { handleSubmit ,handleChange, nova_tarefa, field_ref } ) {
    return (
+
       <form className="form" onSubmit={handleSubmit} action="#">
+
          <input
             ref={field_ref}
             id="input_FORM"
@@ -14,10 +16,13 @@ export default function Form( { handleSubmit ,handleChange, nova_tarefa, field_r
             type="text"
             value={nova_tarefa}
          />
+         
          <button type="submit">
             <FaPlus />
          </button>
+
       </form>
+
    )
 }
 

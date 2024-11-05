@@ -6,14 +6,17 @@ import './Tarefas.css'
 
 export default function Tarefas( { tarefas, handleEdit, handleDelete } ) {
    return (
+
       <ul className="tarefas">
 
          {tarefas.map((tarefa, index) => (
             
             <li key={tarefa}>
+
                <div>
                   <span>{tarefa}</span>
                </div>
+
                <div className="icons_del_edit">
                   <FaEdit
                      onClick={(e) => handleEdit(e, index)}
@@ -24,11 +27,14 @@ export default function Tarefas( { tarefas, handleEdit, handleDelete } ) {
                      className="btn_delete"
                   />
                </div>
+
             </li>
          ))}
 
       </ul>
+
    )
+   
 }
 
 // Tarefas.defaultProps = {
