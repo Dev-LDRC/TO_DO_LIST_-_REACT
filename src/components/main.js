@@ -127,7 +127,7 @@ export default class Main extends Component {
 
             </div>
 
-            <footer>
+            {/* <footer>
 
                <section>
 
@@ -143,7 +143,7 @@ export default class Main extends Component {
 
                </section>
 
-            </footer>
+            </footer> */}
 
          </div>
       )
