@@ -24,7 +24,7 @@
     npm start
     ```
 
-    ### OBS: The server by default will run on port 3000 of localhost, if you have something running on port 3000 CREATE A FILE `.env` IN THE PROJECT ROOT AND WRITE:
+    ### ⚠ The server by default will run on port 3000 of localhost, if you have something running on port 3000 CREATE A FILE `.env` IN THE PROJECT ROOT AND WRITE:
 
     ```JS
     port=<PORT_OF_YOUR_CHOICE>
