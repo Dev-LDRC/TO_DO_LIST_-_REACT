@@ -5,6 +5,11 @@ import { FaPlus } from 'react-icons/fa'
 import './Form.css'
 
 export default function Form( { handleSubmit ,handleChange, nova_tarefa, field_ref } ) {
+
+   const handleClickButton = () => {
+      field_ref.current.focus()
+   }
+
    return (
 
       <form className="form" onSubmit={handleSubmit} action="#">
@@ -17,7 +22,7 @@ export default function Form( { handleSubmit ,handleChange, nova_tarefa, field_r
             value={nova_tarefa}
          />
          
-         <button type="submit">
+         <button type="submit" onClick={handleClickButton}>
             <FaPlus />
          </button>
 
