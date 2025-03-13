@@ -16,7 +16,7 @@ export default class Main extends Component {
    field_input_ref = React.createRef()
 
    componentDidMount() {
-      const tarefas = JSON.parse(localStorage.getItem('tarefas'))
+      const tarefas = JSON.parse(localStorage.getItem('Your_notebook_tasks__by_DevLDRC'))
 
       if( !tarefas ) return
 
@@ -28,7 +28,7 @@ export default class Main extends Component {
 
       if( tarefas === prevState.tarefas) return
 
-      localStorage.setItem('tarefas', JSON.stringify(tarefas))
+      localStorage.setItem('Your_notebook_tasks__by_DevLDRC', JSON.stringify(tarefas))
    }
 
    handleSubmit = (e) => {
